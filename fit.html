@@ -68,11 +68,18 @@
         </div>
     </footer>
 
-
+    <script>
+        function mostrar(){
+          $('#loaderimg2').addClass('imgshow');
+          $('#loaderimg2').removeClass('ims');    
+        }
+        setInterval(mostrar,4000);
+     </script>
     <div class="loaders">
         <div class="loader1"></div>
         <div class="loader2"></div>
         <div class="loaderimg">Cargando...</div>
+        <div class="ims "  id="loaderimg2">esto puede tardar un poco...</div>
     </div>
 
 
